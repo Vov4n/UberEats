@@ -1,0 +1,30 @@
+.main {
+    &-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &__card {
+            margin-top: 16px;
+            padding-bottom: 20px;
+            width: 32.5%;
+            min-height: 366px;
+
+            &:hover,
+            :active {
+                background: rgba($color: #757575, $alpha: .05);
+            }
+
+            a {
+                text-decoration: none;
+
+                img {
+                    width: 100%;
+                }
+
+            }
+
+        }
+
+    }
+}
