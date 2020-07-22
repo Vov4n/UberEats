@@ -7,6 +7,12 @@
     &__main {
         margin-top: 56px;
     }
+
+    &__heading {
+        text-align: center;
+        font-size: 36px;
+        line-height: 42px;
+    }
 }
 
 .subtitle {
@@ -21,12 +27,29 @@
         margin-top: 4px;
         font-size: 13px;
     }
+
+    &__heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 32px;
+        background: $color_four;
+        border-radius: 16px;
+        font-size: 13px;
+        line-height: 15px;
+        color: $color_thre;
+    }
 }
 
 .descr {
     font-size: 14px;
     line-height: 21px;
     color: $color_second;
+
+    &__heading {
+        line-height: 16px;
+    }
 
     &__card {
         margin-top: 4px;

@@ -1,0 +1,23 @@
+.heading {
+    padding: 80px 0;
+    margin-top: 72px;
+    width: 100%;
+    min-height: 364px;
+    background: url(../../img/bg/head.png) center (center/cover) no-repeat;
+
+    &-wrapper {
+        padding: 38px 29px 38px 38px;
+        width: 389px;
+        height: 204px;
+        background: $color_thre;
+        box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+        border-radius: 2px;
+    }
+
+    &-box {
+        margin-top: 54px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
