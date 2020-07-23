@@ -21,6 +21,7 @@
                 line-height: 19px;
                 color: $color_second;
 
+                &:focus,
                 &:hover {
                     color: #327430;
                 }
