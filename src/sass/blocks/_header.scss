@@ -19,11 +19,25 @@
 
         &__basket {
             margin: 0 10px 0 27px;
+
+            a,
+            &:hover,
+            &:focus {
+                outline: none;
+                box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+            }
+
+            &:active {
+                top: .1em;
+                left: .1em;
+                box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+            }
+
         }
 
     }
 
-    button {
+    .button {
         margin-left: 27px;
         width: 78px;
         height: 40px;
@@ -34,5 +48,19 @@
         font-size: 13px;
         line-height: 24px;
         color: $color_main;
+        outline: none;
+        transition: all .4s;
+
+        &:hover,
+        &:focus {
+            outline: none;
+            box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+        }
+
+        &:active {
+            top: .1em;
+            left: .1em;
+            box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+        }
     }
 }
