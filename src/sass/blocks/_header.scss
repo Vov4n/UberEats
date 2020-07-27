@@ -25,6 +25,7 @@
             &:focus {
                 outline: none;
                 box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+                transform: scale(1.1);
             }
 
             &:active {
@@ -32,9 +33,7 @@
                 left: .1em;
                 box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
             }
-
         }
-
     }
 
     .button {

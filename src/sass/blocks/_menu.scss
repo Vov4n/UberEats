@@ -8,12 +8,17 @@
     }
 
     &-card {
+        display: flex;
         margin-top: 49px;
         width: 49.3%;
         min-height: 160px;
-        display: flex;
         border: 1px solid rgba(117, 117, 117, 0.2);
         border-radius: 2px;
+
+        &__img {
+            width: auto;
+            height: auto;
+        }
 
         &__top {
             margin-top: 32px;

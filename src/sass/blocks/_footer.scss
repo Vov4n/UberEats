@@ -22,11 +22,11 @@
         justify-content: space-between;
         padding-top: 32px;
         min-height: 220px;
-        display: flex;
     }
 
     &-items {
-        flex-basis: 32.5%;
+        margin-right: 10px;
+        flex-basis: 30.5%;
 
         ul {
             padding-left: 0;
@@ -94,7 +94,6 @@
         &__icon {
             margin-right: 40px;
         }
-
     }
 
     &-descr {
@@ -113,7 +112,8 @@
 
     &-lang {
         display: flex;
-        width: 227px;
+        max-width: 227px;
+        min-width: 176px;
         background-color: #3B3B3B;
         border-radius: 3px;
 
@@ -136,10 +136,11 @@
     }
 
     &__img {
-        margin: 0 16px;
+        margin: 12px 16px;
         display: none;
 
         &--mid {
+            display: block;
             margin: 12px 16px;
         }
     }
