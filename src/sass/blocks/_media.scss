@@ -34,15 +34,54 @@
     }
 }
 
-@media screen and (max-width: 545px) {
-    .footer {
-        &-items {
-            flex-basis: 27%;
+@media screen and (max-width: 650px) {
+    .navbar {
+        display: none;
+    }
+
+    .title {
+        &-menu {
+            text-align: center;
+            margin-bottom: 0;
+        }
+    }
+
+    .menu {
+        &-line {
+            margin: 12px auto;
+            width: 50px;
+            height: 1px;
+            background: #757575;
+        }
+
+        &-card {
+            margin-top: 16px;
+        }
+    }
+
+    @media screen and (max-width: 545px) {
+        .footer {
+            &-items {
+                flex-basis: 27%;
+            }
         }
     }
 }
 
 @media screen and (max-width: 481px) {
+    .heading {
+        max-height: 255px;
+        padding: 1px 0;
+
+        &-wrapper {
+            margin: 130px auto 0;
+        }
+
+        &-box {
+            margin-top: 60px;
+        }
+    }
+
     .header {
         &-wrapper {
             &__basket {
@@ -59,7 +98,37 @@
         }
     }
 
+    .menu {
+        margin-top: 55px;
+
+        &-card {
+            min-height: 102px;
+
+            &__descr {
+                padding: 0;
+            }
+
+            &__img {
+                max-width: 102px;
+            }
+        }
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .title {
+        &__heading {
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+        }
+    }
+
     .footer {
+        margin-top: 40px;
+
         &-wrapper {
             flex-direction: column;
             padding-bottom: 16px;
@@ -91,4 +160,26 @@
         }
     }
 
+
+}
+
+@media screen and (max-width: 321px) {
+    .heading {
+        &-box {
+            flex-direction: column;
+            margin-top: 40px;
+        }
+
+        &-wrapper {
+            padding: 24px;
+            min-height: 180px;
+        }
+    }
+
+    .subtitle {
+        &__heading {
+            margin-top: 20px;
+            width: 98px;
+        }
+    }
 }

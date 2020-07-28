@@ -1,4 +1,6 @@
+"use strict";
 // ----------------- кнопка вверх ---------
+
 $(document).ready(function () {
 
     $(function () {
